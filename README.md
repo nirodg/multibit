@@ -1,3 +1,43 @@
+
+
+# Only for fun! Project deprecated.
+
+Fixed the dependencies so is buildable. 
+
+```
+mvn install -DskipTests=true
+```
+
+*Ignore any jUnit test.*
+
+Once the build has finished
+
+```
+java -jar target/multibit-exe.jar
+```
+
+
+
+As for my local build, the app as of today syncs smoothly with the network 
+
+```
+Synchronising with network...
+Synchronising with network, 75 block(s) to download. Block date : "Jan 4, 2022".
+Synchronising with network, 74 block(s) to download. Block date : "Jan 4, 2022".
+Synchronising with network, 73 block(s) to download. Block date : "Jan 4, 2022".
+Synchronising with network...
+Synchronising with network, 73 block(s) to download. Block date : "Jan 4, 2022".
+Synchronising with network, 72 block(s) to download. Block date : "Jan 4, 2022".
+Synchronising with network, 1 block(s) to download. Block date : "Jan 4, 2022".
+Synchronised with network.
+```
+
+
+
+Any why not, if this helped you to open your old `multibit.wallet` consider donating.
+
+BTC [BC1QFSZFH0UFEQFECA545VGMPCJ97E9ALFQ9TUK76C](bitcoin:BC1QFSZFH0UFEQFECA545VGMPCJ97E9ALFQ9TUK76C?label=Github) 
+
 # Multibit is Deprecated - Do Not Use
 
 Wednesday, July 26, 2017
